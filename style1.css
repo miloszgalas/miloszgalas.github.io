@@ -9,9 +9,9 @@ header h1{
     float: left;
     margin:0;
     padding:1rem 3rem;
-    background-color: rgb(109, 107, 107);
-    color:white;
-    border: solid 2px rgba(190, 188, 188, 0.685);
+    background-color: #FFF8DC;
+    color:#ffe3af;
+    border: solid 2px #ffe3af;
     /* border-radius: 10px; */
    /* margin-top:1rem;*/
     margin: 1%;
@@ -20,9 +20,9 @@ header h1{
     color:whitesmoke;
     margin:auto;
     padding:1rem 3rem;
-    background-color: rgb(109, 107, 107);
+    background-color: #f1af6c;
     /* margin-top:3rem; */
-    border: solid 2px rgba(190, 188, 188, 0.685);
+    border: solid 2px #FFF8DC;
     /* border-radius: 10px; */
     align-self: center;
     margin-bottom: 1rem;
@@ -50,7 +50,7 @@ header ul li{
     overflow:auto;
     padding: 15px;
     text-align: center;
-    background-color:rgb(92, 92, 92);
+    background-color:#f1af6c;
 }
 
 .head2{
@@ -58,7 +58,7 @@ header ul li{
     /* margin:2rem; */
     padding: 15px;
     text-align: center;
-    background-color:#1abc9c;
+    background-color:#ffe3af;
     /* border: solid 2px rgba(245, 245, 245, 0.685); */
     /* border-radius: 10px; */
 }
@@ -110,7 +110,7 @@ header ul li{
     align-self:center;
 }
 footer{
-    background-color:rgba(0, 0, 0, 0.938);
+    background-color:#f1af6c;
     height:auto;
     display:block;
 }
@@ -127,7 +127,7 @@ footer{
 #newsettler{
     display:block;
     min-height:10rem;
-    background-color:#1abc9c;
+    background-color:#ffe3af;
     /* border: solid 2px rgba(245, 245, 245, 0.685); */
     border-left: 0;
     border-right:0;
