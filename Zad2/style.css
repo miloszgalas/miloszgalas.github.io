@@ -1,0 +1,41 @@
+.carousel{
+    width: auto;
+    max-height: 300px;
+    overflow:hidden;
+}
+.col img, .modal-body img{
+    position:relative;
+    width: 100%;
+    max-width:200px;
+    display:block;
+    margin:auto;
+    height: auto;
+    margin-bottom:5%;
+}
+h1{
+    display:block;
+    margin:auto;
+    padding:1.5%;
+}
+.container{
+    margin-top:3%;
+    padding:0;
+    text-align:center;
+}
+.box{
+    border: 3px solid transparent;
+    background-clip:padding-box;
+    margin: 0 ;
+  }
+  .carousel-inner{
+      font-size: 200%;
+  }
+  footer{
+      display:block;
+      margin-bottom: 0;
+  }
+.team-member img{
+    width:225px;
+    height:225px;
+    border:7px solid rgba(170, 170, 170, 0.603);
+}
