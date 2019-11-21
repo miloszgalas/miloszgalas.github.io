@@ -3,6 +3,11 @@
     max-height: 300px;
     overflow:hidden;
 }
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
 .col img, .modal-body img{
     position:relative;
     width: 100%;
