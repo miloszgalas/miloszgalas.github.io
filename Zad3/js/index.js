@@ -204,7 +204,7 @@ const addNewRecipe = function () {
     let recipe = {
         name: data[0].value,
         url: data[1].value,
-        ingredients: data[2].value.split(' '),
+        ingredients: data[2].value.split(', '),
         description: data[3].value
     };
 
