@@ -2,10 +2,18 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style1.css">
-    <title>Webside</title>
+    <title>Strona z przepisami</title>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style1.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src = jQuery.js></script>
+
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -34,106 +42,24 @@
                 ultricies ligula eget auctor porttitor. Sed nulla turpis, aliquet quis nunc mollis, molestie finibus
                 eros. Proin nec lorem non metus faucibus viverra a a felis.
             </p>
-            <button type="button" class="button">Button</button>
+            <button type="button" class="button" onclick="showRecipeModal()">Add recipe</button>
         </div>
     </section>
-    <section>
-        <div class="container">
-            <div class="grid-container">
-                <div class="recipe grid-item grid-item1">
-                    <div>
-                        <ul class="ingredients">
-                            <li>250 g wołowiny (mięso powinno mieć ok. 20% tłuszczu)</li>
-                            <li>sól morska</li>
-                            <li>młotkowany czarny pieprz</li>
-                        </ul>
-                    </div>
-                    <div class="procedure">
-                        <h4>Mięso na burgery</h4>
-                        Mięso na burgery powinno być zimne, nie należy go przed smażeniem ogrzewać do temperatury pokojowej.
-Zmielić mięso, delikatnie uformować burgery starając się nie ugniatać zbytnio mięsa, ma pozostać dość luźne.
-Smażyć beztłuszczowo na bardzo dobrze rozgrzanej patelni grilowej (najlepiej żeliwnej) przez ok. 2 i pół minuty z każdej strony (lub piec w piekarniku w 190 stopniach, na blasze, przez ok. 4 minut z każdej strony). Tuż przed smażeniem posolić solą morską (ale tylko z tej strony, na której będziemy za chwilę smażyć, drugą stronę posolić dopiero na patelni tuż przed odwróceniem burgera). Po odwróceniu burgera na patelni położyć na niego plasterek sera.
-Bułki przekroić na połówki, opiec w tosterze lub zrumienić na patelni, ewentualnie włożyć pod rozgrzany grill w piekarniku.
-Połówki bułki posmarować cienko majonezem, na dolnej połówce bułki ułożyć plasterek ogórka kiszonego i zgrillowanego burgera. Doprawić młotkowanym pieprzem, posmarować ketchupem i ułożyć warzywa: pomidora, sałatę pół cieniutkiego plasterka czerwonej cebuli. Przykryć drugą połówką bułki i lekko docisnąć.
-Podawać z frytkami
-                    </div>
-                </div>
-                <div class="grid-item2">
-                    <img src="food1.png">
-                </div>
-                <div class="grid-item grid-item3"><img src="food2.jpg">
-                    <h4>Spagetti</h5>
-                    <ul class="ingredients">
-                        <li>passata pomidorowa</li>
-                        <li>mielona wołowina</li>
-                        <li>makaron spaghetti</li>
-                        <li>tarty parmezan</li>
-                        <li>koncentrat pomidorowy</li>
-                        <li>ząbek czosnku</li>
-                        <li>cebula</li>
-                        <li>suszony tymianek</li>
-                        <li>suszone oregano</li>
-                        <li>oliwa z oliwek</li>
-                        <li>sól, pieprz, świerza bazylia</li>
-                    </ul>
-                </div>
-                <div class="grid-item grid-item3"><img src="food3.jpg">
-                    <h4>Lasagne</h5>
-                        <ul class="ingredients">
-                            <li>makaron lasagne</li>
-                            <li>tarty parmezan</li>
-                            <li>oliwa</li>
-                            <li>cebula</li>
-                            <li>seler naciowy</li>
-                            <li>marchewka</li>
-                            <li>bocek</li>
-                            <li>mielona wieprzowina</li>
-                            <li>passata pomidorowa</li>
-                        </ul>
-                </div>
-                <div class="grid-item grid-item3"><img src="food4.jpg">
-                    <h4>Kotlet schabowy</h5>
-                        <ul class="ingredients">
-                            <li>schab bez kości</li>
-                            <li>sól i pieprz</li>
-                            <li>mleko</li>
-                            <li>mąka</li>
-                            <li>jajka</li>
-                            <li>bułka tarta</li>
-                            <li>masło lub smalec</li>
-                        </ul>
-                </div>
-                <div class="grid-item grid-item3"><img src="food5.jpg">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                </div>
-                <div class="grid-item grid-item3"><img src="food6.jpg">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                </div>
-                <div class="grid-item grid-item3"><img src="food1.png">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                </div>
-            </div>
+    <section-recipies>
+        <div id="section-recipes" ></div>
+    </section-recipies>
+
+    <section-recipe-details id="rd-area" class="hidden">
+        <div class="rd-description-container hidden">
+            <h3 class="rd-title hidden" id="rd-recipe-name"></h3>
+            <h5 class="rd-subtitle mg-top-20px hidden">Składniki:</h5>
+            <ul id="rd-ingredients" class="hidden"></ul>
+            <h5 class="rd-subtitle hidden">Sposób przygotowania:</h5>
+            <p class="rd-description pd-top-25px hidden" id="rd-description"></p>
         </div>
-        <div id="newsettler">
-            <div id="desc">Lorem ipsum dolorer sit amet</div>
-            <div id="input">
-                <input type="email" name="emailaddress">
-                <button class="button">Submit</button>
-            </div>
-        </div>
-    </section>
+        <img class="rd-img hidden" src="" id="rd-img" />
+    </section-recipe-details>
+
     <footer>
         <div class=container>
             <div class="footer-grid">
@@ -154,8 +80,18 @@ Podawać z frytkami
                         labore et dolore</p>
                 </div>
             </div>
-
     </footer>
+    <add-recipe-modal id="add-recipe-modal">
+        <span onclick="closeRecipeModal()">x</span>
+        <h3>Dodaj przepis:</h3>
+        <form id="add-recipe-form" action="" onsubmit="addNewRecipe()">
+            <input type="text" name="newRecipeName" required placeholder="nazwa przepisu">
+            <input type="url" name="newRecipeUrl" required pattern="https?://.+" placeholder="zdjęcie">
+            <input type="text" name="newRecipeIngredients" required placeholder="składniki (oddzielone spacją)">
+            <textarea rows="10" name="newRecipeDescription" required placeholder="sposób przygotowania"></textarea>
+            <button type="">Dodaj przepis</button>
+        </form>
+    </add-recipe-modal>
 </body>
 
 </html>
